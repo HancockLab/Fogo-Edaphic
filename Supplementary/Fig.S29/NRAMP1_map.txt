@@ -1,0 +1,4 @@
+population	salmon	dodgerblue	gray	gold	long	lat	radius	totInd	freq_salmon	freq_dodgerblue	freq_gray	freq_gold	region
+F10	4	17	0	0	-24.336601	14.923114	0.0105	21	0.19047619	0.80952381	0	0	A
+F13	0	29	16	0	-24.389709	15.006603	0.0225	45	0	0.644444444	0.355555556	0	B
+F7	0	0	79	1	-24.344426	14.995723	0.04	80	0	0	0.9875	0.0125	C
