@@ -11,7 +11,7 @@ The pictures were done in a photostation with a tripod. The camera was setted wi
 
 #### Split pots from each tray
 
-Select tray area in an image and measure length and width. For this study we used the dimensions in [rectangle.ijm]([rectangle.ijm]). The dimensions have be added within the script [54Splitter.ijm]([54Splitter.ijm]). Run the script [54Splitter.ijm]([54Splitter.ijm]) in ImageJ or Fiji. This will generate a picture for each pot.
+Select tray area in an image and measure length and width. For this study we used the dimensions in [rectangle.ijm](rectangle.ijm). The dimensions have be added within the script [54Splitter.ijm]([54Splitter.ijm]). Run the script [54Splitter.ijm]([54Splitter.ijm]) in ImageJ or Fiji. This will generate a picture for each pot.
 
 
 #### Generate segmentator
