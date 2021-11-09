@@ -1,4 +1,4 @@
-# Image analysis rosette </br> *Fogo-SantoAntão-Morocco*
+# Image analysis - rosette </br> *Fogo-SantoAntão-Morocco*
 
 ## Requirements
 
@@ -7,12 +7,11 @@
 
 ## Description
 
-The pictures were done in a photostation with a tripod. The camera was setted with fixed focus and white balance.
+The pictures were done with a tripod in a photostation. The camera was set with fixed focus and white balance.
 
 #### Split pots from each tray
 
-Select tray area in an image and measure length and width. For this study we used the dimensions in [rectangle.ijm](rectangle.ijm). The dimensions have be added within the script [54Splitter.ijm](54Splitter.ijm). Run the script [54Splitter.ijm](54Splitter.ijm) in ImageJ or Fiji. This will generate a picture for each pot.
-
+The tray area was selected in a picture with the rectangle tool and the coordinates saved in [rectangle.ijm](rectangle.ijm). We added within [54Splitter.ijm](54Splitter.ijm) the width (in pixels) of the pots used (, the number of rows and columns in the tray. We used here squared pots and define width to 380 pixels. Each tray contained 54 pots organized in 6 rows and 9 columns. Run the script [54Splitter.ijm](54Splitter.ijm) in ImageJ or Fiji to generate a picture for each pot.
 
 #### Generate segmentator
 
@@ -24,9 +23,15 @@ Segment rosette for each plant and extract measurements (RGB values and segmenta
 
 #### Results parsing
 
+Parse the results with the python script [parsePictures.py](parsePictures.py).
+
 ```python
-./parsePictures.py
+python ./parsePictures.py
 
 ```
+
+#### Convert pixels to cm
+
+We took pictures of the trays together with a [color checker](https://www.xrite.com/categories/calibration-profiling/colorchecker-classic) to set the scale.
 
 
