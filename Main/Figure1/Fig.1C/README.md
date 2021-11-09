@@ -1,11 +1,15 @@
 # Image analysis - rosette </br> *Fogo-SantoAntão-Morocco*
 
+## Description
+
+Pipeline used to analyse pictures
+
 ## Requirements
 
  * ImageJ or Fiji with SIOX plugin (version 2.1.0/1.53c)
  * Python (version >= 3.0)
 
-## Description
+## Comments
 
 The pictures were done with a tripod in a photostation. The camera was set with fixed focus and white balance.
 
@@ -32,6 +36,6 @@ python ./parsePictures.py
 
 #### Convert pixels to cm
 
-We took pictures of the trays together with a [color checker](https://www.xrite.com/categories/calibration-profiling/colorchecker-classic) to set the scale.
+We took pictures of the trays together with a [color checker](https://www.xrite.com/categories/calibration-profiling/colorchecker-classic) to set the scale
 
 
