@@ -7,45 +7,10 @@ Pipeline used to estimate *NRAMP1* copy number in Fogo
 ## Requirements
 
 * Python (version 2.7)
-* Pindel (version 0.2.5a8, Oct. 14 2014)
 * Delly (version 0.8.7)
 * Samtools (version 1.9 (using htslib 1.9))
 
-## Genotyping for TD with Pindel
-
-#### Run Pindel ([runPindel.sh](runPindel.sh))
-
-```bash
-#!/bin/bash
-path2config='/path2config/'
-path2bam='/path2bam/'
-path2ref='/path2ref/TAIR10_all.fas'
-path2output='/path2output/'
-path2snpEff='/path2snpEff/'
-path2pindel='/path2pindel/'
-
-for i in $path2bam*.sorted.bam
-do
-    sra=`basename $i .sorted.bam`
-    echo "${path2bam}${sra}.sorted.bam    250 ${sra}"> ${path2config}'config_'${sra}
-    ${path2pindel}pindel -f $path2ref -i ${path2config}'config_'${sra} -c ALL -o ${path2output}${sra} -T 20
-done
-```
-
-#### Extract TD information ([extractTDinfo.sh](extractTDinfo.sh))
-
-```bash
-#!/bin/bash
-path2output='/path2output/'
-
-for i in ${path2output}*_TD
-do
-	TD=`basename $i _TD`
-	grep ChrID ${path2output}${TD}_TD > ${path2output}${TD}_TD_head
-done
-```
-
-## Genotyping for TD with Delly
+## Genotyping
 
 #### Run Delly ([runDelly.sh](runDelly.sh))
 
