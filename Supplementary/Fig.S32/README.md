@@ -1,19 +1,22 @@
-# Geographical distribution of the NRAMP1 haplotypes
+# Geographical distribution of the *NRAMP1* haplotypes
 
 ## Requirements
 
-```
-library(ggplot2)
-library(ggmap)
-library(ggrepel)
-library(maps)
-library(rworldmap)
-library(mapproj)
-library(scatterpie)
+#### Software
 
-```   
+* R (version 3.6.2)
 
-## Description
+#### R packages
+
+* ggplot2 (version 3.2.1)
+* ggmap (version 3.0.0)
+* scatterpie (version 0.1.6)
+
+#### Input
+
+* NRAMP1_map.txt
+
+## Code
 
 ```R
 df <- read.table("NRAMP1_map.txt", header = T, sep = '\t') #txt file
