@@ -1,0 +1,16 @@
+Model	Split	MaxLik	AIC	Theta	Nref	N1_bot	N2_bot	N1_end	N2_end	Tsplit	m12	m21	Tbot
+Simple split	Inferno-MonteVelha	-1360	2725	321	1585	2711	7769	x	x	1963	x	x	x
+Exponential	Inferno-MonteVelha	-1480	2967	553	2731	1546	1185	3081	13924	1626	x	x	x
+Isolation with migration	Inferno-MonteVelha	-1442	2896	515	2544	1429	1115	3011	13346	1851	3.62E-05	1.21E-06	x
+Bottleneck	Inferno-MonteVelha	-1345	2700	366	1806	2754	2160	2754	8472	1869	x	x	503
+Bottleneck (standard deviation)	Inferno-MonteVelha	x	x	x	x	1727	8997	1727	6330	2139	x	x	1991
+Simple split	Inferno-Lava	-444	893	439	2172	2643	348	x	x	1758	x	x	x
+Exponential	Inferno-Lava	-520	1048	430	2126	2041	84	2252	1027	2161	x	x	x
+Isolation with migration	Inferno-Lava	-440	892	495	2446	2418	28	2553	569	1501	1.27E-07	3.11E-06	x
+Bottleneck	Inferno-Lava	-859	1729	119	588	1823	395	1823	296	5666	x	x	5160
+Isolation with migration (standard deviation)	Inferno-Lava	x	x	x	x	28	28	203	104	131	3.51866E-06	5.44536E-06	x
+Simple split	MonteVelha-Lava	-380	767	269	1331	7915	331	x	x	2031	x	x	x
+Exponential	MonteVelha-Lava	-473	954	389	1921	1884	37	8620	1155	2413	x	x	x
+Isolation with migration	MonteVelha-Lava	-386	784	311	1534	1524	10	11441	583	2356	4.39E-08	1.31E-06	x
+Bottleneck	MonteVelha-Lava	-504	1019	121	600	5936	5501	5936	347	3884	x	x	2673
+Simple split (standard deviation)	MonteVelha-Lava	x	x	x	x	525	38	x	x	196	x	x	x
