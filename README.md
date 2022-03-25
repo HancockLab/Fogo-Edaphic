@@ -19,48 +19,48 @@
 
 ## Supplementary
 
-#### [Figure S1](./Supplementary/Fig.S1)
+#### [Figure S1](./Supplementary/FigS1)
 
-#### [Figure S2](./Supplementary/Fig.S2)
+#### [Figure S2](./Supplementary/FigS2)
 
-#### [Figure S3](./Supplementary/Fig.S3)
+#### [Figure S3](./Supplementary/FigS3)
 
-#### [Figure S4](./Supplementary/Fig.S4)
+#### [Figure S4](./Supplementary/FigS4)
 
-#### [Figure S5](./Supplementary/Fig.S5)
+#### [Figure S5](./Supplementary/FigS5)
 
-#### [Figure S6](./Supplementary/Fig.S6)
+#### [Figure S6](./Supplementary/FigS6)
 
-#### [Figure S7](./Supplementary/Fig.S7)
+#### [Figure S7](./Supplementary/FigS7)
 
-#### [Figure S9](./Supplementary/Fig.S9)
+#### [Figure S9](./Supplementary/FigS9)
 
-#### [Figure S11](./Supplementary/Fig.S11)
+#### [Figure S11](./Supplementary/FigS11)
 
-#### [Figure S12](./Supplementary/Fig.S12)
+#### [Figure S12](./Supplementary/FigS12)
 
-#### [Figure S13](./Supplementary/Fig.S13)
+#### [Figure S13](./Supplementary/FigS13)
 
-#### [Figure S14](./Supplementary/Fig.S14)
+#### [Figure S14](./Supplementary/FigS14)
 
-#### [Figure S15](./Supplementary/Fig.S15)
+#### [Figure S15](./Supplementary/FigS15)
 
-#### [Figure S16](./Supplementary/Fig.S16)
+#### [Figure S16](./Supplementary/FigS16)
 
-#### [Figure S23](./Supplementary/Fig.S23)
+#### [Figure S23](./Supplementary/FigS23)
 
-#### [Figure S24](./Supplementary/Fig.S24)
+#### [Figure S24](./Supplementary/FigS24)
 
-#### [Figure S25](./Supplementary/Fig.S25)
+#### [Figure S25](./Supplementary/FigS25)
 
-#### [Figure S26](./Supplementary/Fig.S26)
+#### [Figure S26](./Supplementary/FigS26)
 
-#### [Figure S27](./Supplementary/Fig.S27)
+#### [Figure S27](./Supplementary/FigS27)
 
-#### [Figure S29](./Supplementary/Fig.S29)
+#### [Figure S29](./Supplementary/FigS29)
 
-#### [Figure S30](./Supplementary/Fig.S30)
+#### [Figure S30](./Supplementary/FigS30)
 
-#### [Figure S31](./Supplementary/Fig.S31)
+#### [Figure S31](./Supplementary/FigS31)
 
-#### [Figure S32](./Supplementary/Fig.S32)
+#### [Figure S32](./Supplementary/FigS32)
